@@ -16,6 +16,8 @@ state includes information such as (but not limited to):
   whether a rolling restart is used)
 - characteristics of the nodes where the service can run (such as resource
   constraints and placement preferences)
+  
+  Swarm集群中的服务使用声明模式，这意味着我们要定义我们期望的服务的状态，并依赖Docker来维护这些状态。
 
 For an overview of swarm mode, see [Swarm mode key concepts](key-concepts.md).
 For an overview of how services work, see
